@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#demo {
+  max-width: 780px;
+  margin: 20px auto 20px auto;
+}
+
+#results {
+  min-height: 500px;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+}
+
+dt {
+  font-weight: bold;
+  clear: left;
+  float: left;
+  width: 33%; /* adjust the width; make sure the total of both is 100% */
+}
+dt:after {
+  content: ": ";
+}
+
+dd {
+  float: left;
+  width: 67%; /* adjust the width; make sure the total of both is 100% */
+}
+
+#errors {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 100px;
+}
