@@ -29,12 +29,12 @@ $(function() {
 
                     if (caps) {
                         $capsList.text(JSON.stringify(caps, null, 2);
+                        $results.empty().append($capsList);
                     }
                     else {
                         $('#errors').text('Failed to fetch system capabilities!');
+                        $results.empty();
                     }
-
-                    $results.empty().append($capsList);
                 }, 1000);
             } else {
                 $('#errors').text('Failed to load the SWF!');
