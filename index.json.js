@@ -28,7 +28,7 @@ $(function() {
                         $capsList = $('<pre></pre>');
 
                     if (caps) {
-                        $capsList.text(JSON.stringify(caps, null, 2);
+                        $capsList.text(JSON.stringify(caps, null, 2));
                         $results.empty().append($capsList);
                     }
                     else {
