@@ -30,16 +30,17 @@ $(function(){
               $.each(caps, function(key, val) {
                 $capsList.append($('<dt>' + key + '</dt><dd>' + JSON.stringify(val) + '</dd>'));
               });
+              $results.empty().append($capsList);
             }
             else {
               $('#errors').text('Failed to fetch system capabilities!');
+              $results.empty();
             }
-            
-            $results.empty().append($capsList);
           }, 1000);
         }
         else {
           $('#errors').text('Failed to load the SWF!');
+          $results.empty();
         }
       };
 
