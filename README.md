@@ -2,12 +2,15 @@
 
 ## Description
 
-SWF Capabilities can grab the user's "system capabilities" object, which holds
+SWF Capabilities can grab the user's Flash "system capabilities" object, which holds
 certain system information that can be used as an aid in things like spam
 control, user authorization, short-term user validation, etc. Referrer and IP
 can be spoofed, but the system capabilities object cannot.
 
-This repo's gh-pages site will _just_ display the values of these capabilities.
+This repo's gh-pages site will _just_ display the values of these capabilities.  
+
+See your browser's Flash capabilities:  http://jamesmgreene.github.io/SWF-Capabilities/index.html  
+See the raw JSON version:  http://jamesmgreene.github.io/SWF-Capabilities/index.json.html
 
 
 ## Adaptation from original source
@@ -18,7 +21,7 @@ This repo's gh-pages site will _just_ display the values of these capabilities.
 
 ```
 ==================================================================
-SWF Capabilities ©2011 JasonLau.biz
+SWF Capabilities Â© 2011 JasonLau.biz
 Contact: http://send.amailto.me/jason
 ==================================================================
 This program is free software: you can redistribute it and/or modify
